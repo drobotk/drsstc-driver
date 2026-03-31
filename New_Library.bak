@@ -2885,7 +2885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Inverting 4-A High-Speed Low-Side MOSFET Driver With Enable"
+		(property "Description" "Dual  Low-Side MOSFET Driver With Enable"
 			(at -1.27 0 0)
 			(effects
 				(font
