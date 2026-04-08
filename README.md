@@ -6,7 +6,7 @@ This is a KiCad project of the DRSSTC driver used in my tesla coil.
 - Single CT input for both clock and overcurrent detection
 - Phase lead adjustable with a potentiometer, no need for a tunable inductor
 - Adjustable self-oscillation, useful for testing and running a coil at the upper pole frequency
-- Traditional / pulse skipping operation selectable with a switch
+- Traditional / pulse skipping operation selectable with a jumper
 - Adjustable UVLO for protecting precious IGBTs
 - 74AHC high speed logic, less phase lead needed
 - More modern parts than a UD2.7c
