@@ -6940,12 +6940,6 @@
 		(color 0 0 0 0)
 		(uuid "fcea48b8-1574-4cf4-8ae8-f793dc506f05")
 	)
-	(junction
-		(at 106.68 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff0f5f59-45bc-4bc3-ac68-e0dc1b8d8f34")
-	)
 	(no_connect
 		(at 367.03 34.29)
 		(uuid "3f4f8a17-f657-4266-b803-f9b0e476ef0c")
@@ -7590,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 97.79) (xy 26.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325f5872-fd5e-4f0e-8eff-7d0097697c6a")
+	)
+	(wire
+		(pts
 			(xy 134.62 44.45) (xy 134.62 46.99)
 		)
 		(stroke
@@ -8137,16 +8141,6 @@
 			(type default)
 		)
 		(uuid "581ce6a7-b364-4190-9a3c-072a1591c865")
-	)
-	(wire
-		(pts
-			(xy 25.4 97.79) (xy 26.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "590ff97e-6866-4acc-ad3f-ae5c31055d7b")
 	)
 	(wire
 		(pts
@@ -8930,16 +8924,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 204.47) (xy 107.95 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bad9f5-26c1-4f77-bef1-5d2bd60f8dda")
-	)
-	(wire
-		(pts
 			(xy 229.87 22.86) (xy 238.76 22.86)
 		)
 		(stroke
@@ -9220,7 +9204,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 204.47) (xy 106.68 204.47)
+			(xy 105.41 204.47) (xy 107.95 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9667,16 +9651,6 @@
 			(type default)
 		)
 		(uuid "c54c5bc2-4ee6-4c47-aba2-42180dab21ff")
-	)
-	(wire
-		(pts
-			(xy 106.68 198.12) (xy 106.68 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c55840a1-6c0a-4f38-80ac-780fec716224")
 	)
 	(wire
 		(pts
@@ -13435,7 +13409,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 194.31 90)
+		(at 208.28 194.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13445,7 +13419,7 @@
 		(dnp no)
 		(uuid "279364a7-5cb1-4f6c-a557-ec663f35c888")
 		(property "Reference" "R14"
-			(at 198.12 189.484 90)
+			(at 208.28 189.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13455,7 +13429,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 198.12 192.024 90)
+			(at 208.28 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13465,7 +13439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 196.088 90)
+			(at 208.28 196.088 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,7 +13450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 194.31 0)
+			(at 208.28 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13487,7 +13461,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 194.31 0)
+			(at 208.28 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13584,85 +13558,6 @@
 			(project "driver1"
 				(path "/ed4ed053-ef94-4597-a27c-c8d8624d8bb7"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c5fda4a-98fa-4888-861d-c185f662bbc7")
-		(property "Reference" "TP4"
-			(at 109.22 193.5479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UVLO_out"
-			(at 109.22 196.0879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 111.76 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bf949d6-b335-450b-a6a0-e55d74f4cbc4")
-		)
-		(instances
-			(project "driver1"
-				(path "/ed4ed053-ef94-4597-a27c-c8d8624d8bb7"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -18862,7 +18757,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 208.28 205.74 180)
+		(at 198.12 205.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18872,7 +18767,7 @@
 		(dnp no)
 		(uuid "8647a3b6-2fa8-47e3-a808-5c917c6eaedf")
 		(property "Reference" "D6"
-			(at 208.28 199.644 0)
+			(at 198.12 199.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18882,7 +18777,7 @@
 			)
 		)
 		(property "Value" "INTERRUPTER"
-			(at 208.28 202.184 0)
+			(at 198.12 202.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18892,7 +18787,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 208.28 205.74 0)
+			(at 198.12 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18903,7 +18798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 205.74 0)
+			(at 198.12 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18914,7 +18809,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 208.28 205.74 0)
+			(at 198.12 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18925,7 +18820,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 205.74 0)
+			(at 198.12 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20819,7 +20714,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 208.28 194.31 180)
+		(at 198.12 194.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20829,7 +20724,7 @@
 		(dnp no)
 		(uuid "a63f668b-908a-4403-8606-24781962fab8")
 		(property "Reference" "D5"
-			(at 208.28 188.468 0)
+			(at 198.12 188.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20839,7 +20734,7 @@
 			)
 		)
 		(property "Value" "5V_OK"
-			(at 208.28 191.008 0)
+			(at 198.12 191.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20849,7 +20744,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 208.28 194.31 0)
+			(at 198.12 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20860,7 +20755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 194.31 0)
+			(at 198.12 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20871,7 +20766,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 208.28 194.31 0)
+			(at 198.12 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20882,7 +20777,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 194.31 0)
+			(at 198.12 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21396,7 +21291,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 208.28 215.9 180)
+		(at 198.12 215.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21406,7 +21301,7 @@
 		(dnp no)
 		(uuid "aea755cd-645a-4ef5-8df6-33c0e7a20abb")
 		(property "Reference" "D7"
-			(at 208.28 210.566 0)
+			(at 198.12 210.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21416,7 +21311,7 @@
 			)
 		)
 		(property "Value" "SKIP"
-			(at 208.28 213.106 0)
+			(at 198.12 213.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21426,7 +21321,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 208.28 215.9 0)
+			(at 198.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21437,7 +21332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 215.9 0)
+			(at 198.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21448,7 +21343,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 208.28 215.9 0)
+			(at 198.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21459,7 +21354,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 215.9 0)
+			(at 198.12 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21891,7 +21786,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 20.32 97.79 180)
+		(at 20.32 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21899,10 +21795,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5e9ca31-7079-4e08-b8f5-18ce9e259374")
 		(property "Reference" "J1"
-			(at 20.32 88.9 0)
+			(at 20.32 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21912,7 +21807,7 @@
 			)
 		)
 		(property "Value" "FB CT"
-			(at 20.32 91.44 0)
+			(at 20.32 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21922,7 +21817,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
-			(at 20.32 97.79 0)
+			(at 20.32 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21933,7 +21828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 97.79 0)
+			(at 20.32 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21944,7 +21839,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 97.79 0)
+			(at 20.32 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21971,7 +21866,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 215.9 90)
+		(at 208.28 215.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21981,7 +21876,7 @@
 		(dnp no)
 		(uuid "b9292f7c-19b9-4752-b3e8-a7c6e969fbbe")
 		(property "Reference" "R16"
-			(at 198.12 211.074 90)
+			(at 208.28 211.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21991,7 +21886,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 198.12 213.614 90)
+			(at 208.28 213.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22001,7 +21896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 217.678 90)
+			(at 208.28 217.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22012,7 +21907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 215.9 0)
+			(at 208.28 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22023,7 +21918,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 215.9 0)
+			(at 208.28 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22207,7 +22102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 205.74 90)
+		(at 208.28 205.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22217,7 +22112,7 @@
 		(dnp no)
 		(uuid "bd59f3a9-8358-4386-96e8-1fbbc35c7afa")
 		(property "Reference" "R15"
-			(at 198.12 200.914 90)
+			(at 208.28 200.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22227,7 +22122,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 198.12 203.454 90)
+			(at 208.28 203.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22237,7 +22132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 207.518 90)
+			(at 208.28 207.518 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22248,7 +22143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 205.74 0)
+			(at 208.28 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22259,7 +22154,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 205.74 0)
+			(at 208.28 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
