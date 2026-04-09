@@ -142,10 +142,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -667,7 +667,7 @@
         "uuid": "ed4ed053-ef94-4597-a27c-c8d8624d8bb7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J5,R23,C28-29",
     "variants": []
   },
   "sheets": [
